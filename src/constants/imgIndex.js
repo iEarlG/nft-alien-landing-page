@@ -17,11 +17,12 @@ import docs from '../assets/docs.svg';
 import Logo from '../assets/logo.svg';
 import sun from '../assets/sun.svg';
 import wallet from '../assets/wallet.svg';
+import arrowDown from '../assets/arrow-down.svg';
 
 export default { 
     alienBlueWhite, alienB, alienCyan, alienGreen, alienOrange, alienPurpleBlack, alienPurple, alienRed, hero0, logo,
 
     hero,
 
-    bank, cart, docs, Logo, sun, wallet
+    bank, cart, docs, Logo, sun, wallet, arrowDown,
 }

@@ -7,17 +7,24 @@ export default {
   theme: {
     extend: {
       fonts: {
-        'poppins': ['Poppins', 'sans-serif'],
-        'bakbak': ['Bakbak One', 'cursive']
+        poppins: ['Poppins', 'sans-serif'],
+        bakbak: ['Bakbak One', 'cursive']
       },
       colors: {
-        'first-color': '#21E786',
-        'second-color': '#141B22',
-        'third-color': '#000000',
-
-        'base-color': '#FFFFFF',
-        'base-color-2': '#C2C3C5',
-      }
+        firstColor: '#21E786',
+        secondColor: '#141B22',
+        thirdColor: '#000000',
+        baseColor: '#FFFFFF',
+        baseColor2: '#C2C3C5',
+      },
+      screens: {
+        xs: '375px',
+        ss: '620px',
+        sm: '768px',
+        md: '1060px',
+        lg: '1200px',
+        xl: '1700px',
+      },
     },
   },
   plugins: [],
