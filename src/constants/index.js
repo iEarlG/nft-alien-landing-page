@@ -1,6 +1,5 @@
 import { alienBlueWhite, alienB, alienCyan, alienGreen, alienOrange, alienPurpleBlack, alienPurple, alienRed, 
-        bank, cart, docs, wallet, arrowDown } from "./imgIndex";
-
+        bank, cart, docs, wallet, arrowDown } from '../assets';
 export const navLinks = [
   {
     id: "home",

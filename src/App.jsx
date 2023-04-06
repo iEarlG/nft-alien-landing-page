@@ -1,28 +1,29 @@
 import React from 'react';
 
 import styles from './style';
+import { Navbar, Hero, Steps, Collections, About, Partners } from './components';
 
 const App = () => {
   return (
     <div className="bg-secondColor w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
-          Navbar
+          <Navbar />
         </div>
       </div>
 
       <div className={`bg-secondColor ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          Hero
+          <Hero />
         </div>
       </div>
 
       <div className={`bg-secondColor ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          Steps
-          Collections
-          About
-          Partners
+          <Steps />
+          <Collections />
+          <About />
+          <Partners />
         </div>
       </div>
     </div>
