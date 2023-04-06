@@ -1,5 +1,6 @@
 import { alienBlueWhite, alienB, alienCyan, alienGreen, alienOrange, alienPurpleBlack, alienPurple, alienRed, 
         bank, cart, docs, wallet, arrowDown } from '../assets';
+
 export const navLinks = [
   {
     id: "home",
@@ -205,21 +206,21 @@ export const collections = [
 //   },
 // ];
 
-export const clients = [
-  {
-    id: "client-1",
-    logo: airbnb,
-  },
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
-  },
-];
+// export const clients = [
+//   {
+//     id: "client-1",
+//     logo: airbnb,
+//   },
+//   {
+//     id: "client-2",
+//     logo: binance,
+//   },
+//   {
+//     id: "client-3",
+//     logo: coinbase,
+//   },
+//   {
+//     id: "client-4",
+//     logo: dropbox,
+//   },
+// ];
